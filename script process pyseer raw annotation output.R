@@ -1,6 +1,7 @@
+#NOTE: this is written for bespoke use, it is not ready out-of-the-box.
 #script to take pyseer annotated kmers output and group kmers into overlapping regions and either extract their annotation or assign a new annotation
 #also summarises the statistics by gene or by cluster (continuous overlapping region of multiple genes)
-#
+
 
 library(tidyr)
 library(IRanges)
